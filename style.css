@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.control-label{
+    color:#406ce4d0;
+    font-weight: 700;
+}
+fieldset {
+    border : 1px  solid #406ce4d0;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+fieldset > legend {
+    padding: 0 10px  ;
+    margin: 0 10px ;
+    width: auto;
+}
+.myform-page {
+    display:none;
+}
+
+.labelCheckbox {
+    display: inline-block;
+    width: 120px;
+    padding: 2px 5px;
+}
